@@ -1,0 +1,45 @@
+.candidates-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+  }
+  
+  .candidate-card {
+    backdrop-filter: blur(10px);
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    border-color: white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Stylish font */
+    font-weight: bolder;
+    color: navy;
+  }
+  
+  .candidate-photo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border : 2px solid navy;
+    border-radius: 5px;
+    border-color: navy;
+  }
+  
+  .candidate-details {
+    backdrop-filter: blur(10px);
+    border: 2px solid #ccc;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border-color:navy;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+
+  h2 {
+    border: 3px solid white;
+    color: navy; /* Change to the color you want */
+  }
+  

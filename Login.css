@@ -1,0 +1,37 @@
+.card-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5); /* semi-transparent white background */
+    backdrop-filter: blur(10px); /* backdrop blur effect */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    background-color: #fff; /* white background for the card */
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .card-body {
+    background: linear-gradient(to right, #00d2ff, #3a7bd5); /* gradient background */
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .card-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  body {
+    background-image: url('..\\background.png');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+  }
+    
